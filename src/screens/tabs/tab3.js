@@ -15,9 +15,8 @@ const tab3 = () => {
   return (
     <ScrollView>
       {
-        news.map(data => <Product product={data} />)
+        news.map(data => <Product product={data} key={data.key} />)
       }
-
 
     </ScrollView>
 

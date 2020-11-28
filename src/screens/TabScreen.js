@@ -3,6 +3,7 @@ import { Container, Header, Content, Left, Body, Right, Title, Tab, Tabs } from 
 import Tab1 from './tabs/tab1';
 import Tab2 from './tabs/tab2';
 import Tab3 from './tabs/tab3';
+import WebViews from './Webview/WebViews';
 export default class TabsExample extends Component {
   render() {
     return (
